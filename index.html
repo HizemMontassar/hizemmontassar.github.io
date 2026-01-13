@@ -857,6 +857,21 @@
                         </figure>
                         <figure
                           class="item"
+                          data-project="ae"
+                          data-groups='["category_web", "category_all"]'
+                        >
+                          <div class="portfolio-item-img">
+                            <img
+                              src="img/portfolio/ae/banner.jpg"
+                              alt="annuaire entreprise"
+                            />
+                            <a href="#" class="open-portfolio-modal"></a>
+                          </div>
+                          <h4 class="name">Annuaire Entreprise</h4>
+                          <span class="category">Web</span>
+                        </figure>
+                        <figure
+                          class="item"
                           data-project="todaily"
                           data-groups='["category_web", "category_all"]'
                         >
@@ -1210,7 +1225,7 @@
             class="fixed inset-0 bg-black/70 hidden items-center justify-center z-100"
           >
             <div
-              class="bg-[#222222] w-full max-w-[81%] h-[80%] overflow-y-auto rounded-lg relative p-6"
+              class="bg-[#222222] w-full max-w-[81%] h-[80%] overflow-y-auto md:overflow-y-hidden rounded-lg relative p-6"
             >
               <div class="w-full flex justify-end">
                 <button id="closeModal" class="text-2xl">&times;</button>
@@ -1570,6 +1585,25 @@
           isGithub: false,
           demo: "https://chat-me-gwdx.onrender.com",
           github: "#",
+        },
+        ae: {
+          title: "Annuaire Entreprise",
+          description: `
+                <p class="mb-3">
+                  Annuaire Entreprise is a service marketplace platform that helps clients find and hire local companies in Canada, and help companies promote their services.
+                  </p>
+                `,
+          technologies: "Angular, Tailwind CSS, NestJS, MySql",
+          images: [
+            "img/portfolio/ae/1.jpg",
+            "img/portfolio/ae/2.jpg",
+            "img/portfolio/ae/3.jpg",
+            "img/portfolio/ae/4.jpg",
+          ],
+          isDemo: false,
+          isGithub: true,
+          demo: "#",
+          github: "https://github.com/HizemMontassar/ae-front",
         },
       };
     </script>
